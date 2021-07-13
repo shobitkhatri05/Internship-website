@@ -1,0 +1,60 @@
+.img{
+ 
+    width: 20%;
+     
+    }
+    .row{
+        font-size: 30px;
+    }
+    * {
+        box-sizing: border-box;
+      }
+     
+      .column {
+        float: left;
+        width: 33.33%;
+        padding: 5px;
+      }
+     
+      /* Clearfix (clear floats) */
+      .row::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      .fa {
+        padding: 20px;
+        font-size: 30px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+      }
+     
+      /* Add a hover effect if you want */
+      .fa:hover {
+        opacity: 0.7;
+      }
+     
+      /* Set a specific color for each brand */
+     
+      /* Facebook */
+      .fa-facebook {
+        color:rgb(153, 40, 40);
+     
+      }
+     
+      /* Twitter */
+      .fa-twitter {
+        color:rgb(184, 62, 62);
+     
+      }
+      .fa-instagram{
+          color: rgb(165, 50, 50);
+      }
+      .fa-google{
+          color: rgb(199, 57, 57);
+      }
+      .fa-star{
+          color: gray;
+      }
+     

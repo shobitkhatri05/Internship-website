@@ -1,0 +1,104 @@
+<div class="container-fluid" style="background-image: url(../../assets/images/signup-bg.jpg);  background-repeat: no-repeat;
+background-size: cover;
+height: 150vh;">
+  <div class="row ">
+      <div class="col-md-12 mt-4 mb-4">
+          <h4 style="text-align: center; font-size: 50px; color: black;">I-intern</h4>
+      </div>
+
+  </div>
+  <div class="col-md-6 offset-md-3 mt-2 mb-3">
+      <p class="content" style="color: black">I-Intern is an Indian Online Education platform that offers courses to
+          upgrade your Skills.
+          I-Intern is an excellent platform for students who want to start their career in their chosen field. You can
+          trust that we are safe and will show you the right path.
+
+      </p>
+
+  </div>
+  <!-- <div class="col-md-6 offset-md-3 mt-5 p-5"style="background-color: white; border-inline: inherit; border-radius: 5px;">
+
+      <div class="student_login1">
+          <h4 style="color:black;text-align: center;">Create your account</h4>
+      </div>
+      <form class="form1" style="border-inline: inherit; border-inline-color: #000000; border-radius: 5px;">
+          <div class="container">
+              <label for="uname" style="color: black;"><b>First name</b></label>
+              <input type="text" placeholder="Enter Username" name="FirstName"  style="border-radius: 6px;" required>
+
+              <label for="uname" style="color: black;"><b>Last name</b></label> -->
+
+
+              <div class="col-md-6 offset-md-3 mt-5 p-5"
+              style="background-color: rgb(255, 255, 255); border-inline: inherit; border-radius: 5px;">
+      
+              <div class="student_login1">
+                  <h4 style="color:black;text-align: center;">Create your account</h4>
+              </div>
+              <form class="form1 needs-validation" style="border-inline: inherit; border-inline-color: black; border-radius: 5px;" novalidate>
+                  
+                <!-- <div class="container"> -->
+                <div class="col-md-12" style="margin: 0%; padding: 0%;">
+                      <label for="validationCustom01"  style="color: black;"><b>User Name</b></label>
+                      <input type="text" class="form-control" id="validationCustom01"placeholder="Enter user Name" name="Name"  [(ngModel)]="Name" style="border-radius: 6px;" required>
+                      <!-- <div class="valid-feedback">
+                        Looks good!
+                      </div> -->
+                    </div>
+
+                    <div class="col-md-12" style="margin: 0%; padding: 0%;">
+                      <label for="validationCustom02"  style="color: black;"><b>Email address</b></label>
+                      <input type="email" class="form-control"id="validationCustom02" placeholder="Enter email address" name="Email" [(ngModel)]="Email" style="border-radius: 6px;" required>
+                      <!-- <div class="invalid-feedback">
+                        Looks good!
+                      </div> -->
+                      </div>
+
+                      <div class="col-md-12" style="margin: 0%; padding: 0%;">
+                      <label for="validationCustom03"  style="color: black;"><b>Phone number</b></label>
+                      <input type="number" class="form-control" id="validationCustom03" placeholder="Enter phone number"name="Phone" [(ngModel)]="Phone" style="border-radius: 6px;" required>
+                      <!-- <div class="invalid-feedback">
+                        Looks good!
+                      </div> -->
+                      </div>
+
+                      <div class="col-md-12" style="margin: 0%; padding: 0%;">
+                      <label for="validationCustom04"  style="color: black;"><b>Create password</b></label>
+                      <input type="password" class="form-control" id="validationCustom04" placeholder="Create password" name="Password" [(ngModel)]="Password" style="border-radius: 6px;" required>
+                      <!-- <div class="invalid-feedback">
+                        Looks good!
+                      </div> -->
+                      </div>
+
+                      <!-- <input type="password" placeholder="create password" name="Password"  style="border-radius: 6px;"
+                          required> -->
+              <div class="col-md-12" style="margin: 0%; padding: 0%;">
+                      <label for="validationCustom05"  style="color: black;"><b>Confirm Passwod</b></label>
+                      <input type="password" class="form-control"  placeholder="Confirm Password" name="ConfirmPassword" [(ngModel)]="ConfirmPassword" style="border-radius: 6px;"
+                          required>
+                          <!-- <div class="invalid-feedback">
+                            Looks good!
+                          </div> -->
+                          </div>
+
+      
+      
+                      <label style="color: black;">
+                          By registering you agree to our <a href="https://www.wayup.com/terms/" style="color: blue;">Terms
+                              and Conditions</a> and <a href="https://www.wayup.com/terms/" style="color: blue">Privacy
+                              Policy.</a>
+                      </label>
+                      <div class="col-lg-12 mt-3">
+                          <button type="submit" (click)="SignUp()" style="background-image: linear-gradient(to left,#74ebd5,#9face6); font-size: 20px;
+                           color: black; border-radius: 6px;">Register</button>
+                      </div>
+                      <label style="color: black; margin-top: 2%;">Already have an account?</label> <a
+                          href="http://localhost:4200/login"  style="margin-left: 2%; font-size: 17px;">Log In</a>
+                  <!-- </div> -->
+              </form>
+          </div>
+  </div>
+  <app-footer></app-footer>
+  
+
+

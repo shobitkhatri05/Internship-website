@@ -1,0 +1,69 @@
+<app-nav2></app-nav2>
+<br>
+<div class="row">
+<div class="col-md-4 col-12">
+    <div class="card" style="width: 32rem;">
+        <img src="../../assets/images/cyber.jpeg" width="100%" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Cyber Security</h5>
+          <!-- <p class="card-text"></p> -->
+          <p class="card-text">https://meet.google.com/vdx-simw-tdd</p>
+
+          
+
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 col-12">
+        <div class="card" style="width: 32rem;">
+            <img src="../../assets/images/gra.jpeg" width="100%" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Graphics Design</h5>
+              <p class="card-text">https://meet.google.com/vdx-simw-tdd</p>
+             
+              
+    
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-12">
+            <div class="card" style="width: 32rem;">
+                <img src="../../assets/images/lar.jpeg" width="100%" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Web Development</h5>
+                  <p class="card-text">https://meet.google.com/vdx-simw-tdd</p>
+                  <!-- <a href="https://meet.google.com/vdx-simw-tdd">Join Now</a> -->
+                  
+        
+                </div>
+              </div>
+            </div>
+        </div>
+
+
+
+<div class="row" style="flex-direction: row; flex-wrap: wrap;">
+<div class="col-lg-4 col-12" *ngFor="let obj of arr">
+    <br>
+    <div class="col" >
+        <div class="card" >
+            <img src="../../assets/images/word.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">{{obj.cardtitles}}</h5>
+                <p class="card-text">{{obj.shortmessages}}</p>
+            </div>
+        </div>
+</div>
+</div>
+</div>
+<!-- ///////////////////////////////////////////////////////////////////////// -->
+<!-- <div class="container " *ngFor="let obj of arr" >
+    <div class="row mt-4">
+        <div class="card" style="width: 18rem;">
+            <img src="../../assets/images/girl.png" width="100%" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">{{obj.cardtitles}}</h5>
+                <p class="card-text">{{obj.shortmessages}}</p>
+            </div>
+          </div>
+    </div> -->

@@ -1,0 +1,108 @@
+/* .student_login1
+{
+    margin-left: 45%;
+} */
+/* Bordered form */
+form {
+    border: 3px solid  black;
+  }
+  
+  /* Full-width inputs */
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid gray;
+    box-sizing: border-box;
+  }
+  
+  /* Set a style for all buttons */
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  /* Add a hover effect for buttons */
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  /* Extra style for the cancel button (red) */
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+  }
+  
+  /* Center the avatar image inside this container */
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+  }
+  
+  /* Avatar image */
+  img.avatar {
+    width: 40%;
+    border-radius: 50%;
+  }
+  
+  /* Add padding to containers */
+  .container {
+    padding: 16px;
+  }
+  
+  /* The "Forgot password" text */
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+  
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 300px) {
+    span.psw {
+      display: block;
+      float: none;
+    }
+    .cancelbtn {
+      width: 100%;
+    }
+  }
+  .content
+  {
+      font-size: 20px;
+      line-height: 45px;
+      /* margin-top: 5%; */
+      
+  }
+  /* .form1
+  {
+    background-image: linear-gradient(to right top, #191718, #241c23, #2d2230, #332940, #333151, #2c395b, #224164, #0f496b, #065069, #125666, #245b62, #34605e);
+  } */
+  .container-fluid{
+    /* background-image: linear-gradient(
+        316deg
+        , rgb(16, 69, 173) 0%, rgb(29, 106, 224) 42%, rgb(27, 172, 239) 96%, rgb(28, 178, 241) 100%);
+        height: 100%; */
+        /* background-image: url(../../assets/images/signup-bg.jpg); */
+        background-repeat: no-repeat;
+          background-size: cover;
+         height: 250vh;
+  }
+  .buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .btn{
+    font-weight: bold;
+    width: 80%;
+    padding: 5%;
+    color: #fff;
+  }
+  

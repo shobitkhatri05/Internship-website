@@ -1,0 +1,56 @@
+<div class="container-fluid" style="background-image: url(../../assets/images/signup-bg.jpg);">
+  <div class="row " >
+      <div class="col-md-12 mt-4 mb-4">
+          <h4 style="text-align: center; font-size: 50px; color: black;">I-intern</h4>
+
+      </div>
+      
+  </div>
+      <div class="col-md-6 offset-md-3 mt-2 mb-3" >
+          <p class="content" style="color:black;" >I-Intern is an Indian Online Education platform that offers courses to upgrade your Skills.
+              I-Intern is an excellent platform for students who want to start their career in their chosen field. You can trust that we are safe and will show you the right path.
+
+              
+              </p>
+          
+      </div>
+      <div class="col-md-6 offset-md-3 mb-5 mt-5 p-5" style="background-color: white; border-inline: inherit; border-radius: 5px;">
+         
+              <div class="student_login1">
+                  <h4 style="color:black;text-align: center;">Welcome back</h4>
+              </div>
+              <form class="form1" style="border-inline: inherit; border-radius: 5px;">
+                  <div class="container">
+                      <label for="validationCustom01" style="color: black;"><b>E-mail</b></label>
+                      <input type="text" class="form-control"id="validationCustom01" placeholder="Enter Email" name="Emaail" [(ngModel)]="Email" 
+                      style="color: black; border-radius: 5px;" aria-describedby="emailHelp" required>
+                  
+                      <label for="validationCustom02" style="color: black;"><b>Password</b></label>
+                      <input type="password" class="form-control"id="validationCustom02" placeholder="Enter Password" [(ngModel)]="Password"  name="Password" required style="border-inline-end-color:navajowhite; border-radius: 5px;" required >
+                      
+                  <div class="col-lg-12 mt-3">
+                      <button type="submit" (click)="Login()" style="background-image: linear-gradient(to left,#74ebd5,#9face6); font-size: 20px; color: black; border-radius: 5px;">Log In</button>
+                  </div>
+                      <!-- <label style="color:black;">
+                        <input type="checkbox" checked="checked" style="color: black;" name="remember"> Remember me
+                      </label> -->
+                    </div>
+                  
+                    <div class="container" >
+                      <span class="psw"  style="color: black;" >Create  <a href="#" href="http://localhost:4200/signup"  style="color: black;"> account</a></span>
+                    </div>
+                    <!-- <div class="buttons mt-5">
+                      <div class="col-6">  
+                    <button type="button" class="btn btn-info" [routerLink]="['/user-signup']">SIGN UP</button>
+                </div>
+                <div class="col-6">
+                    <button type="button" class="btn btn-outline-info" [routerLink]="['/user-login']">LOG IN</button>
+                </div>
+                </div> -->
+                
+              </form>
+      </div>
+  </div>
+  <app-footer></app-footer>
+ 
+ 

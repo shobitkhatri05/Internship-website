@@ -1,0 +1,13 @@
+<div class="row d-flex justify-content-center">
+    <button type="button"  class="btn btn-dark" [routerLink]="['/admin']"> Admin</button>
+  </div>
+  <br>
+
+
+<div class="card col-lg-10 col-md-12 col-sm-12 offset-lg-1" style="width: 18rem; float: left; margin-bottom: 5%; background-color: #4285F4;" *ngFor="let obj of arr">
+    
+    <div class="card-body ">
+        <p scope="col"> Name : {{ obj.name}} <br>  Email : {{obj.email}} <br> message : {{obj.message}} <br> 
+          
+    </div>
+</div>

@@ -1,0 +1,18 @@
+.nav-two {
+    margin-right: 200px;
+
+}
+
+/* @media only screen and(min-width:1080px){ */
+/* .nav-one {
+    padding-right: 50px;
+    padding-left: 10px;
+    margin-left: 40%;
+} */
+/* } */
+
+
+
+.nav-two > .li-one {
+    margin-right: 20px;
+}

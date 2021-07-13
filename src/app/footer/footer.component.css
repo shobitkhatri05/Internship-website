@@ -1,0 +1,68 @@
+.t1{
+ 
+  color: gray;
+  font-size: 11px;
+  /* background-color: green; */
+  line-height: 0.1;
+  }
+
+  .t2{
+
+
+      background-color: black;
+
+  }
+  .t3{
+
+      color:red
+      ;
+      font-size: 15px;
+  }
+  .t8{
+      line-height: 5.8;
+      color:white;
+
+  }
+.t0{
+
+  color: red;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook-f {
+  
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+
+  color: white;
+}
+.fa-google-plus-g {
+  color: aliceblue;
+}
+.fa-linkedin-in {
+  color: aliceblue;
+}
+.fa-instagram {
+  color: aliceblue;
+}
+.fa-pinterest {
+  color: aliceblue;
+}
